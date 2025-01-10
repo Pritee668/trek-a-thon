@@ -95,7 +95,7 @@ button:disabled {
   gap: 20px;
 }
 p{
-  height: 200px;
+  height: 100px;
 max-height: 400px;
 overflow-y: auto;  
 overflow-x: hidden;
