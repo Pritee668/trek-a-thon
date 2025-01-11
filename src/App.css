@@ -29,10 +29,10 @@ h1 {
 
 .light {
   --background-color: #ffffff;
-  --primary-color: #333333;
-  --text-color: #333333;
+  --primary-color: #000000;
+  --text-color: #000000;
   --button-bg: #4CAF50;
-  --button-text: #fff;
+  --button-text: #ffffff;
   --toast-bg: #28a745;
 }
 
@@ -41,8 +41,22 @@ h1 {
   --primary-color: #ffffff;
   --text-color: #ffffff;
   --button-bg: #4CAF50;
-  --button-text: #fff;
+  --button-text: #ffffff;
   --toast-bg: #28a745;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, p {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
 }
 
 
