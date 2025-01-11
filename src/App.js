@@ -5,7 +5,7 @@ import HistoryList from '../src/components/HistoryList';
 import TextInput from '../src/components/TextInput';
 import VoiceControl from '../src/components/VoiceControl';
 import ActionButtons from "./components/ActionButtons";  
-import API_KEY from "../config"
+//import API_KEY from "../config"
   function App() {
     const [text, setText] = useState("");
     const [voice, setVoice] = useState("en-US");
@@ -98,7 +98,7 @@ import API_KEY from "../config"
       document.body.appendChild(toast);
       setTimeout(() => toast.remove(), 3000);
     };
-      const apiKey = API_KEY;
+      const apiKey = "AIzaSyDiZILhLQ6yj6bXmqUJMbbRKrBtF9aqf5M";
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
     
   const fetchAnswer = async (query) => {
